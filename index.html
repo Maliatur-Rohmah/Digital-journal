@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dear Diary</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Journal harian</p>
+          <h1>Dear Diary</h1>
+        </div>
+        <button id="themeToggle" class="theme-toggle" aria-label="Ganti tema">
+          🌙
+        </button>
+      </header>
+
+      <main class="layout">
+        <section class="panel form-panel">
+          <h2 id="formTitle">Tulis hari ini</h2>
+
+          <form id="entryForm">
+            <label class="field">
+              <span>Tanggal</span>
+              <input id="entryDate" type="date" required />
+            </label>
+
+            <div class="field">
+              <span>Mood</span>
+              <div id="moodPicker" class="mood-picker" aria-label="Pilih mood"></div>
+            </div>
+
+            <label class="field">
+              <span>Judul</span>
+              <input id="entryTitle" type="text" maxlength="80" placeholder="Judul entri" required />
+            </label>
+
+            <label class="field">
+              <span>Isi cerita</span>
+              <textarea id="entryText" rows="7" placeholder="Ceritakan hari mu..." required></textarea>
+            </label>
+
+            <div class="form-actions">
+              <button type="submit" class="primary-btn" id="saveBtn">Simpan entri</button>
+              <button type="button" class="secondary-btn hidden" id="cancelEditBtn">Batal</button>
+            </div>
+          </form>
+        </section>
+
+        <section class="panel entries-panel">
+          <div class="entries-header">
+            <h2>Catatan</h2>
+            <div class="filters">
+              <input id="searchInput" type="search" placeholder="Cari entri..." aria-label="Cari entri" />
+              <select id="moodFilter" aria-label="Filter mood">
+                <option value="all">Semua mood</option>
+              </select>
+            </div>
+          </div>
+
+          <div id="entriesList" class="entries-list" aria-live="polite"></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

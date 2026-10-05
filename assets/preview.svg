@@ -1,0 +1,29 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" rx="36" fill="#FFF8FB"/>
+  <rect x="80" y="70" width="1040" height="90" rx="24" fill="url(#paint0_linear_1_2)"/>
+  <circle cx="1015" cy="115" r="26" fill="#FFF2B2"/>
+  <path d="M1006 115L1015 105L1024 115L1015 125L1006 115Z" fill="#C596A6"/>
+  <text x="120" y="130" fill="#4A3B47" font-family="Verdana, sans-serif" font-size="52" font-weight="700">Dear Diary</text>
+  <rect x="80" y="205" width="430" height="490" rx="22" fill="#FFFFFF" stroke="#F1D0DF" stroke-width="3"/>
+  <rect x="120" y="255" width="170" height="18" rx="9" fill="#E8D7EF"/>
+  <rect x="120" y="295" width="230" height="18" rx="9" fill="#F7E3C7"/>
+  <rect x="120" y="350" width="300" height="110" rx="18" fill="#FFF3F7"/>
+  <rect x="120" y="490" width="250" height="20" rx="10" fill="#DCEFD8"/>
+  <rect x="120" y="528" width="180" height="20" rx="10" fill="#E2D8FF"/>
+  <rect x="560" y="205" width="560" height="490" rx="24" fill="#FFF6F8" stroke="#F1D0DF" stroke-width="3"/>
+  <rect x="620" y="250" width="190" height="26" rx="13" fill="#F1D2E2"/>
+  <circle cx="630" cy="345" r="22" fill="#FFDFAF"/>
+  <rect x="670" y="332" width="260" height="26" rx="13" fill="#F7E4C4"/>
+  <rect x="620" y="395" width="390" height="18" rx="9" fill="#E6D9FF"/>
+  <rect x="620" y="430" width="340" height="18" rx="9" fill="#F9DDE5"/>
+  <rect x="620" y="465" width="360" height="18" rx="9" fill="#E7F0D2"/>
+  <rect x="620" y="500" width="280" height="18" rx="9" fill="#F7E2B5"/>
+  <rect x="620" y="545" width="200" height="38" rx="14" fill="#EFD6E5"/>
+  <defs>
+    <linearGradient id="paint0_linear_1_2" x1="80" y1="70" x2="1120" y2="160" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFD6E7"/>
+      <stop offset="0.52" stop-color="#E7D8FF"/>
+      <stop offset="1" stop-color="#FFF6BC"/>
+    </linearGradient>
+  </defs>
+</svg>
